@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://tu-frontend.vercel.app'], // Actualiza con tu dominio de Vercel
+  origin: ['http://localhost:5173', 'https://proyectoprueba-delta.vercel.app'], // Actualiza con tu dominio real de Vercel
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
