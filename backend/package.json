@@ -4,8 +4,8 @@
   "description": "API Backend para practicar con Axios",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+     "build": "echo 'Build complete'",
+     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
